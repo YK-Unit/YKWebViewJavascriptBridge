@@ -81,7 +81,7 @@
 	```
 4. 在 Native 层中调用 Web API
 
-	```
+	``` objc
 	[self.nativeBridgeEngine sendMessage:@"SetLocation" data:@"广州-方圆E时光" responseCallback:^(id  _Nullable responseData) {
 	        NSLog(@"responseData:%@",responseData);
 	    }];
