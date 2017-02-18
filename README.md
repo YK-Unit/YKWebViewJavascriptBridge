@@ -1,7 +1,9 @@
 # YKWebViewJavascriptBridge
 基于`WKWebView`+`messageHandler`+`自定义协议` 搭建的`WebViewJavascriptBridge`
 
-# 使用
+---
+
+# Usage
 1. 初始化 `YKNativeBridgeEngine` 
 	
 	``` objc
@@ -90,6 +92,7 @@
 
 5. 更多使用详情，请看Demo。 enjoy~😘
 
+---
 
 # 设计思路
 
