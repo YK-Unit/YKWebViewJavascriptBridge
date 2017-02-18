@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <WebKit/WebKit.h>
 
-typedef void (^YKResponseCallback)(_Nullable id responseData);
-typedef void (^YKMessageHandler)(_Nullable id data,_Nullable YKResponseCallback responseCallback);
+typedef void (^YKResponseCallback)(id _Nullable responseData);
+typedef void (^YKMessageHandler)(id _Nullable data, YKResponseCallback _Nonnull responseCallback);
 
 @interface YKNativeBridgeEngine : NSObject
 

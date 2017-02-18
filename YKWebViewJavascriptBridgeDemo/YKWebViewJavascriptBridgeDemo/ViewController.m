@@ -69,7 +69,7 @@
     [self.webView loadFileURL:fileURL allowingReadAccessToURL:fileURL];
     
     __weak typeof(self) weakSelf = self;
-    [self.nativeBridgeEngine addMessageHandler:@"SetViewColor" handler:^(id  _Nullable data, YKResponseCallback  _Nullable responseCallback) {
+    [self.nativeBridgeEngine addMessageHandler:@"SetViewColor" handler:^(id _Nullable data, YKResponseCallback _Nonnull responseCallback) {
         NSLog(@"data:%@",data);
         
         NSArray *params = (NSArray *)data;
@@ -91,7 +91,7 @@
         responseCallback(nil);
     }];
     
-    [self.nativeBridgeEngine addMessageHandler:@"GetLocation" handler:^(id  _Nullable data, YKResponseCallback  _Nullable responseCallback) {
+    [self.nativeBridgeEngine addMessageHandler:@"GetLocation" handler:^(id  _Nullable data, YKResponseCallback _Nonnull responseCallback) {
         NSLog(@"data:%@",data);
     
         NSString *location = @"广州-网易大厦";
