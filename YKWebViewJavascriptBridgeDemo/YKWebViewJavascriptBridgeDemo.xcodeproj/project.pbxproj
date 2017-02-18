@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		984C36191E55399600D7A009 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 984C36181E55399600D7A009 /* main.m */; };
+		984C361C1E55399600D7A009 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 984C361B1E55399600D7A009 /* AppDelegate.m */; };
+		984C361F1E55399600D7A009 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 984C361E1E55399600D7A009 /* ViewController.m */; };
+		984C36221E55399600D7A009 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 984C36201E55399600D7A009 /* Main.storyboard */; };
+		984C36241E55399600D7A009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 984C36231E55399600D7A009 /* Assets.xcassets */; };
+		984C36271E55399600D7A009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 984C36251E55399600D7A009 /* LaunchScreen.storyboard */; };
+		984C36391E56D9D600D7A009 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 984C36381E56D9D600D7A009 /* index.html */; };
+		984C363F1E57EF7A00D7A009 /* YKNativeBridgeEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 984C363C1E57EF7A00D7A009 /* YKNativeBridgeEngine.m */; };
+		984C36401E57EF7A00D7A009 /* YKWebBridgeEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 984C363E1E57EF7A00D7A009 /* YKWebBridgeEngine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		984C36141E55399600D7A009 /* YKWebViewJavascriptBridgeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKWebViewJavascriptBridgeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		984C36181E55399600D7A009 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		984C361A1E55399600D7A009 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		984C361B1E55399600D7A009 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		984C361D1E55399600D7A009 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		984C361E1E55399600D7A009 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		984C36211E55399600D7A009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		984C36231E55399600D7A009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		984C36261E55399600D7A009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		984C36281E55399600D7A009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		984C36381E56D9D600D7A009 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		984C363B1E57EF7A00D7A009 /* YKNativeBridgeEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKNativeBridgeEngine.h; sourceTree = "<group>"; };
+		984C363C1E57EF7A00D7A009 /* YKNativeBridgeEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKNativeBridgeEngine.m; sourceTree = "<group>"; };
+		984C363D1E57EF7A00D7A009 /* YKWebBridgeEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKWebBridgeEngine.h; sourceTree = "<group>"; };
+		984C363E1E57EF7A00D7A009 /* YKWebBridgeEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKWebBridgeEngine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		984C36111E55399600D7A009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		984C360B1E55399500D7A009 = {
+			isa = PBXGroup;
+			children = (
+				984C363A1E57EF7A00D7A009 /* YKWebViewJavascriptBridge */,
+				984C36161E55399600D7A009 /* YKWebViewJavascriptBridgeDemo */,
+				984C36151E55399600D7A009 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		984C36151E55399600D7A009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				984C36141E55399600D7A009 /* YKWebViewJavascriptBridgeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		984C36161E55399600D7A009 /* YKWebViewJavascriptBridgeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				984C36381E56D9D600D7A009 /* index.html */,
+				984C361A1E55399600D7A009 /* AppDelegate.h */,
+				984C361B1E55399600D7A009 /* AppDelegate.m */,
+				984C361D1E55399600D7A009 /* ViewController.h */,
+				984C361E1E55399600D7A009 /* ViewController.m */,
+				984C36201E55399600D7A009 /* Main.storyboard */,
+				984C36231E55399600D7A009 /* Assets.xcassets */,
+				984C36251E55399600D7A009 /* LaunchScreen.storyboard */,
+				984C36281E55399600D7A009 /* Info.plist */,
+				984C36171E55399600D7A009 /* Supporting Files */,
+			);
+			path = YKWebViewJavascriptBridgeDemo;
+			sourceTree = "<group>";
+		};
+		984C36171E55399600D7A009 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				984C36181E55399600D7A009 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		984C363A1E57EF7A00D7A009 /* YKWebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				984C363B1E57EF7A00D7A009 /* YKNativeBridgeEngine.h */,
+				984C363C1E57EF7A00D7A009 /* YKNativeBridgeEngine.m */,
+				984C363D1E57EF7A00D7A009 /* YKWebBridgeEngine.h */,
+				984C363E1E57EF7A00D7A009 /* YKWebBridgeEngine.m */,
+			);
+			name = YKWebViewJavascriptBridge;
+			path = ../YKWebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		984C36131E55399600D7A009 /* YKWebViewJavascriptBridgeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 984C362B1E55399600D7A009 /* Build configuration list for PBXNativeTarget "YKWebViewJavascriptBridgeDemo" */;
+			buildPhases = (
+				984C36101E55399600D7A009 /* Sources */,
+				984C36111E55399600D7A009 /* Frameworks */,
+				984C36121E55399600D7A009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKWebViewJavascriptBridgeDemo;
+			productName = YKWebViewJavascriptBridgeDemo;
+			productReference = 984C36141E55399600D7A009 /* YKWebViewJavascriptBridgeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		984C360C1E55399500D7A009 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "YK-Unit";
+				TargetAttributes = {
+					984C36131E55399600D7A009 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 984C360F1E55399500D7A009 /* Build configuration list for PBXProject "YKWebViewJavascriptBridgeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 984C360B1E55399500D7A009;
+			productRefGroup = 984C36151E55399600D7A009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				984C36131E55399600D7A009 /* YKWebViewJavascriptBridgeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		984C36121E55399600D7A009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984C36271E55399600D7A009 /* LaunchScreen.storyboard in Resources */,
+				984C36391E56D9D600D7A009 /* index.html in Resources */,
+				984C36241E55399600D7A009 /* Assets.xcassets in Resources */,
+				984C36221E55399600D7A009 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		984C36101E55399600D7A009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984C36401E57EF7A00D7A009 /* YKWebBridgeEngine.m in Sources */,
+				984C361F1E55399600D7A009 /* ViewController.m in Sources */,
+				984C361C1E55399600D7A009 /* AppDelegate.m in Sources */,
+				984C36191E55399600D7A009 /* main.m in Sources */,
+				984C363F1E57EF7A00D7A009 /* YKNativeBridgeEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		984C36201E55399600D7A009 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				984C36211E55399600D7A009 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		984C36251E55399600D7A009 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				984C36261E55399600D7A009 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		984C36291E55399600D7A009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		984C362A1E55399600D7A009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		984C362C1E55399600D7A009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YKWebViewJavascriptBridgeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YK-Unit.YKWebViewJavascriptBridgeDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		984C362D1E55399600D7A009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YKWebViewJavascriptBridgeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YK-Unit.YKWebViewJavascriptBridgeDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		984C360F1E55399500D7A009 /* Build configuration list for PBXProject "YKWebViewJavascriptBridgeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				984C36291E55399600D7A009 /* Debug */,
+				984C362A1E55399600D7A009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		984C362B1E55399600D7A009 /* Build configuration list for PBXNativeTarget "YKWebViewJavascriptBridgeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				984C362C1E55399600D7A009 /* Debug */,
+				984C362D1E55399600D7A009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 984C360C1E55399500D7A009 /* Project object */;
+}

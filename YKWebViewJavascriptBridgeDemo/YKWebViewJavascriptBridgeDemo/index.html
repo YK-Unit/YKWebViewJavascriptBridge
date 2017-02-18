@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+            <script language="javascript">
+                
+            var webBridgeEngine = window.YKWebBridgeEngine;
+            console.log(webBridgeEngine)
+
+            function asyncAlert(content) {
+                setTimeout(function(){
+                           alert(content);
+                           },1);
+            }
+            
+            //JS本地方法
+            function colorClick() {
+                var r = Math.random();
+                var g = Math.random();
+                var b = Math.random();
+                var a = Math.random();
+                webBridgeEngine.sendMessage('SetViewColor',[r,g,b,a],function(response) {
+
+                                            });
+            }
+            
+            function locationClick() {
+                webBridgeEngine.sendMessage('GetLocation',function(response) {
+                                   setLocation(response);
+                });
+            }
+            
+            function setLocation(location) {
+                asyncAlert(location);
+                document.getElementById("returnValue").value = "当前位置为："+location;
+            }
+            
+            //供OC调用的方法
+            webBridgeEngine.addMessageHandler('SetLocation',
+                                     function(data, responseCallback) {
+                                     setLocation(data);
+                                     var respData = {"result":"set location success"}
+                                     responseCallback(respData);
+                                    })
+            
+
+            </script>
+            </head>
+    
+    <body>
+        <h1>web按钮</h1>
+        <input type="button" value="更改背景颜色" onclick="colorClick()" />
+        <input type="button" value="获取定位" onclick="locationClick()" />
+
+        <h1>web回调结果</h1>
+        <textarea id ="returnValue" type="value" rows="5" cols="40">
+        
+        </textarea>
+        
+    
+    </body>
+</html>
