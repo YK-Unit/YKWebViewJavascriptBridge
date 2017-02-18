@@ -15,8 +15,8 @@
 @property (nonatomic,readwrite,copy) WKWebViewConfiguration *configuration;
 @property (nonatomic,weak) WKWebView *webView;
 
-@property (nonatomic,strong) NSMutableDictionary *messageHandlerDict;
-@property (nonatomic,strong) NSMutableDictionary *responseCallbackDict;
+@property (nonatomic,strong) NSMutableDictionary *messageHandlerDict; ///< 保存messageName对应的方法实现
+@property (nonatomic,strong) NSMutableDictionary *responseCallbackDict; ///< 保存响应回调
 @property (nonatomic,assign) NSInteger uniqueId;
 
 - (void)_bridgeEngineDidWriteData:(NSString * _Nonnull)jsonMessage;
